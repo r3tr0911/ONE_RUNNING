@@ -7,7 +7,7 @@ const sequelize = new Sequelize(
     process.env.DB_PASSWORD,
     {
     host: process.env.DB_HOST,
-    dialect: "mysql", // ⬅️ este es el dialect que falta
+    dialect: "mysql",
     logging: false
     }
 );

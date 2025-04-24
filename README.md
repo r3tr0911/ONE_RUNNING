@@ -45,13 +45,6 @@ JWT_SECRET=key
 El Worker procesará tareas como la sincronización de dispositivos.
 
 ## 🧠 Estructura del proyecto
-<!-- ``src``      
-``config``                                         
-``controllers``                    
-``jobs``              
-``middlewares``                
-``models``       
-``app.js ``        -->
 ```bash
 src/
 ├── config/         # Configuración de Sequelize
